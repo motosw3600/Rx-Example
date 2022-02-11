@@ -6,16 +6,32 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var resultLabel: UILabel!
     
+    let disposeBag = DisposeBag()
+    var viewModel: ViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.configureViewModel()
+    }
+    
+    private func configureViewModel() {
+        let input = ViewModel.Input(text: textField.rx.text.orEmpty.asObservable())
+        
+        guard let text = self.resultLabel.text else { return }
+        
+        viewModel = ViewModel(input: input, dependecy: text)
+        
+        viewModel?.output.result
+            .bind(to: resultLabel.rx.text)
+            .disposed(by: disposeBag)
     }
 
 

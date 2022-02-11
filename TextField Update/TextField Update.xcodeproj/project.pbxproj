@@ -56,7 +56,6 @@
 				4600F790561D8E6EB652F957 /* Pods-TextField Update.debug.xcconfig */,
 				1B3764D6118C295CEDF8B199 /* Pods-TextField Update.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +80,31 @@
 		E9DE149727B66EC400CE4443 /* TextField Update */ = {
 			isa = PBXGroup;
 			children = (
+				E9DE14AC27B66F6D00CE4443 /* AppDelegate */,
+				E9DE14AD27B66F7600CE4443 /* Resources */,
+				E9DE149C27B66EC400CE4443 /* ViewController.swift */,
+			);
+			path = "TextField Update";
+			sourceTree = "<group>";
+		};
+		E9DE14AC27B66F6D00CE4443 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
 				E9DE149827B66EC400CE4443 /* AppDelegate.swift */,
 				E9DE149A27B66EC400CE4443 /* SceneDelegate.swift */,
-				E9DE149C27B66EC400CE4443 /* ViewController.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E9DE14AD27B66F7600CE4443 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9DE14A627B66EC800CE4443 /* Info.plist */,
 				E9DE149E27B66EC400CE4443 /* Main.storyboard */,
 				E9DE14A127B66EC800CE4443 /* Assets.xcassets */,
 				E9DE14A327B66EC800CE4443 /* LaunchScreen.storyboard */,
-				E9DE14A627B66EC800CE4443 /* Info.plist */,
 			);
-			path = "TextField Update";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,7 +376,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DRL89Y339X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TextField Update/Info.plist";
+				INFOPLIST_FILE = "TextField Update/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -390,7 +405,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DRL89Y339X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TextField Update/Info.plist";
+				INFOPLIST_FILE = "TextField Update/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6A58C676C74E391ACEDF62EF /* Pods_Rx_CollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E977341090707F3E31D717 /* Pods_Rx_CollectionView.framework */; };
+		E9ADC97F27BA53E800F98433 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADC97D27BA53E700F98433 /* CustomCell.swift */; };
+		E9ADC98027BA53E800F98433 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9ADC97E27BA53E800F98433 /* CustomCell.xib */; };
 		E9F43BF627BA529B00B774B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F43BF527BA529B00B774B6 /* AppDelegate.swift */; };
 		E9F43BF827BA529B00B774B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F43BF727BA529B00B774B6 /* SceneDelegate.swift */; };
 		E9F43BFA27BA529B00B774B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F43BF927BA529B00B774B6 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 		18E977341090707F3E31D717 /* Pods_Rx_CollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rx_CollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C11E9618D0BB175E22D069A /* Pods-Rx-CollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx-CollectionView.release.xcconfig"; path = "Target Support Files/Pods-Rx-CollectionView/Pods-Rx-CollectionView.release.xcconfig"; sourceTree = "<group>"; };
 		B35DAE884B4B8F95AA7BC5B7 /* Pods-Rx-CollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx-CollectionView.debug.xcconfig"; path = "Target Support Files/Pods-Rx-CollectionView/Pods-Rx-CollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		E9ADC97D27BA53E700F98433 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		E9ADC97E27BA53E800F98433 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		E9F43BF227BA529B00B774B6 /* Rx-CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rx-CollectionView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F43BF527BA529B00B774B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9F43BF727BA529B00B774B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +52,6 @@
 				B35DAE884B4B8F95AA7BC5B7 /* Pods-Rx-CollectionView.debug.xcconfig */,
 				3C11E9618D0BB175E22D069A /* Pods-Rx-CollectionView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +87,8 @@
 				E9F43C0A27BA52B000B774B6 /* Resources */,
 				E9F43C0927BA52A600B774B6 /* AppDelegate */,
 				E9F43BF927BA529B00B774B6 /* ViewController.swift */,
+				E9ADC97D27BA53E700F98433 /* CustomCell.swift */,
+				E9ADC97E27BA53E800F98433 /* CustomCell.xib */,
 			);
 			path = "Rx-CollectionView";
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 			files = (
 				E9F43C0227BA529D00B774B6 /* LaunchScreen.storyboard in Resources */,
 				E9F43BFF27BA529D00B774B6 /* Assets.xcassets in Resources */,
+				E9ADC98027BA53E800F98433 /* CustomCell.xib in Resources */,
 				E9F43BFD27BA529B00B774B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +231,7 @@
 			files = (
 				E9F43BFA27BA529B00B774B6 /* ViewController.swift in Sources */,
 				E9F43BF627BA529B00B774B6 /* AppDelegate.swift in Sources */,
+				E9ADC97F27BA53E800F98433 /* CustomCell.swift in Sources */,
 				E9F43BF827BA529B00B774B6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,7 +384,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DRL89Y339X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Rx-CollectionView/Info.plist";
+				INFOPLIST_FILE = "Rx-CollectionView/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -406,7 +413,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DRL89Y339X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Rx-CollectionView/Info.plist";
+				INFOPLIST_FILE = "Rx-CollectionView/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

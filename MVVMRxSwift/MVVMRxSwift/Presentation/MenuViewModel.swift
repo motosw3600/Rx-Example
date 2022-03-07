@@ -11,7 +11,7 @@ final class MenuViewModel {
     private let menu: Menu
     
     var displayText: String {
-        return menu.name + "-" + "\(menu.price)"
+        return menu.name + " - " + "\(menu.price)"
     }
     
     init(menu: Menu) {

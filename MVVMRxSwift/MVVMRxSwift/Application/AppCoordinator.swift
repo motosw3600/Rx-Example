@@ -15,7 +15,7 @@ class AppCoordinator {
     }
     
     func start() {
-        let viewController = ViewController()
+        let viewController = ViewController.instantiate(viewModel: MenuListViewModel(menuService: MenuService()))
         window.rootViewController = viewController
         window.makeKeyAndVisible()
     }

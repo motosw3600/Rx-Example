@@ -8,7 +8,11 @@
 import Foundation
 import RxSwift
 
-class MenuService {
+protocol MenuServiceImpl {
+    func fetchMenus() -> Observable<[Menu]>
+}
+
+class MenuService: MenuServiceImpl {
     func fetchMenus() -> Observable<[Menu]> {
         return Observable.create { observer -> Disposable in
             

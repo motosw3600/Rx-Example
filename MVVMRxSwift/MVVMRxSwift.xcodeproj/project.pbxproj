@@ -17,6 +17,7 @@
 		E9BF8E0127D5E26A008CFDB9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BF8E0027D5E26A008CFDB9 /* AppCoordinator.swift */; };
 		E9BF8E0327D5E838008CFDB9 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = E9BF8E0227D5E838008CFDB9 /* menu.json */; };
 		E9BF8E0527D5E984008CFDB9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BF8E0427D5E984008CFDB9 /* Menu.swift */; };
+		E9BF8E0827D5EB88008CFDB9 /* MenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BF8E0727D5EB88008CFDB9 /* MenuService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E9BF8E0027D5E26A008CFDB9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		E9BF8E0227D5E838008CFDB9 /* menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		E9BF8E0427D5E984008CFDB9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		E9BF8E0727D5EB88008CFDB9 /* MenuService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,9 @@
 		E9BF8DE727D5E163008CFDB9 /* MVVMRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E9BF8E0A27D5ED77008CFDB9 /* Data */,
 				E9BF8DFC27D5E1EE008CFDB9 /* Application */,
+				E9BF8E0627D5EB6A008CFDB9 /* Services */,
 				E9BF8DFD27D5E1FF008CFDB9 /* Resources */,
 				E9BF8DEC27D5E163008CFDB9 /* ViewController.swift */,
 				E9BF8E0427D5E984008CFDB9 /* Menu.swift */,
@@ -114,6 +118,21 @@
 				E9BF8E0227D5E838008CFDB9 /* menu.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E9BF8E0627D5EB6A008CFDB9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E9BF8E0727D5EB88008CFDB9 /* MenuService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E9BF8E0A27D5ED77008CFDB9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +253,7 @@
 			files = (
 				E9BF8E0127D5E26A008CFDB9 /* AppCoordinator.swift in Sources */,
 				E9BF8DED27D5E163008CFDB9 /* ViewController.swift in Sources */,
+				E9BF8E0827D5EB88008CFDB9 /* MenuService.swift in Sources */,
 				E9BF8DE927D5E163008CFDB9 /* AppDelegate.swift in Sources */,
 				E9BF8DEB27D5E163008CFDB9 /* SceneDelegate.swift in Sources */,
 				E9BF8E0527D5E984008CFDB9 /* Menu.swift in Sources */,

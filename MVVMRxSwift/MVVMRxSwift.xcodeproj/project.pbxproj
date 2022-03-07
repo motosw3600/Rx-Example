@@ -14,6 +14,7 @@
 		E9BF8DF027D5E163008CFDB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BF8DEE27D5E163008CFDB9 /* Main.storyboard */; };
 		E9BF8DF227D5E165008CFDB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BF8DF127D5E165008CFDB9 /* Assets.xcassets */; };
 		E9BF8DF527D5E165008CFDB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BF8DF327D5E165008CFDB9 /* LaunchScreen.storyboard */; };
+		E9BF8E0127D5E26A008CFDB9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BF8E0027D5E26A008CFDB9 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E9BF8DF127D5E165008CFDB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9BF8DF427D5E165008CFDB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9BF8DF627D5E165008CFDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9BF8E0027D5E26A008CFDB9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				E9BF8DE827D5E163008CFDB9 /* AppDelegate.swift */,
 				E9BF8DEA27D5E163008CFDB9 /* SceneDelegate.swift */,
+				E9BF8E0027D5E26A008CFDB9 /* AppCoordinator.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BF8E0127D5E26A008CFDB9 /* AppCoordinator.swift in Sources */,
 				E9BF8DED27D5E163008CFDB9 /* ViewController.swift in Sources */,
 				E9BF8DE927D5E163008CFDB9 /* AppDelegate.swift in Sources */,
 				E9BF8DEB27D5E163008CFDB9 /* SceneDelegate.swift in Sources */,
@@ -376,7 +380,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DRL89Y339X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVMRxSwift/Info.plist;
+				INFOPLIST_FILE = MVVMRxSwift/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -405,7 +409,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DRL89Y339X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVMRxSwift/Info.plist;
+				INFOPLIST_FILE = MVVMRxSwift/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

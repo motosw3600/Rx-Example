@@ -20,6 +20,7 @@
 		E9BF8E0827D5EB88008CFDB9 /* MenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BF8E0727D5EB88008CFDB9 /* MenuService.swift */; };
 		E9BF8E0D27D5EDE5008CFDB9 /* MenuListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BF8E0C27D5EDE5008CFDB9 /* MenuListViewModel.swift */; };
 		E9BF8E0F27D5EFB8008CFDB9 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BF8E0E27D5EFB8008CFDB9 /* MenuViewModel.swift */; };
+		E9BF8E1127D5FB29008CFDB9 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BF8E1027D5FB29008CFDB9 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E9BF8E0727D5EB88008CFDB9 /* MenuService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuService.swift; sourceTree = "<group>"; };
 		E9BF8E0C27D5EDE5008CFDB9 /* MenuListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewModel.swift; sourceTree = "<group>"; };
 		E9BF8E0E27D5EFB8008CFDB9 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		E9BF8E1027D5FB29008CFDB9 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				E9BF8E0727D5EB88008CFDB9 /* MenuService.swift */,
+				E9BF8E1027D5FB29008CFDB9 /* LocalFileManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				E9BF8E0127D5E26A008CFDB9 /* AppCoordinator.swift in Sources */,
 				E9BF8E0D27D5EDE5008CFDB9 /* MenuListViewModel.swift in Sources */,
+				E9BF8E1127D5FB29008CFDB9 /* LocalFileManager.swift in Sources */,
 				E9BF8DED27D5E163008CFDB9 /* ViewController.swift in Sources */,
 				E9BF8E0827D5EB88008CFDB9 /* MenuService.swift in Sources */,
 				E9BF8DE927D5E163008CFDB9 /* AppDelegate.swift in Sources */,

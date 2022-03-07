@@ -9,5 +9,5 @@ import Foundation
 
 struct Menu: Decodable {
     let name: String
-    let price: Int
+    let price: String
 }

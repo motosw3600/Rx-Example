@@ -1,0 +1,30 @@
+[
+    {
+        "name": "curtlet",
+        "price": 10000
+    },
+    {
+        "name": "steak",
+        "price": 15000
+    },
+    {
+        "name": "pizza",
+        "price": 13000
+    },
+    {
+        "name": "Spahetti"
+        "price": 8000
+    },
+    {
+        "name": "chicken"
+        "price": 18000
+    },
+    {
+        "name": "sushi"
+        "price": 17000
+    },
+    {
+        "name": "risotto"
+        "price": 9000
+    }
+]

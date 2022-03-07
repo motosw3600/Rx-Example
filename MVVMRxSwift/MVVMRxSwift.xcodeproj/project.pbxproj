@@ -88,12 +88,11 @@
 		E9BF8DE727D5E163008CFDB9 /* MVVMRxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				E9BF8E0A27D5ED77008CFDB9 /* Data */,
 				E9BF8DFC27D5E1EE008CFDB9 /* Application */,
+				E9BF8E0B27D5EDAF008CFDB9 /* Presentation */,
 				E9BF8E0627D5EB6A008CFDB9 /* Services */,
+				E9BF8E0A27D5ED77008CFDB9 /* Data */,
 				E9BF8DFD27D5E1FF008CFDB9 /* Resources */,
-				E9BF8DEC27D5E163008CFDB9 /* ViewController.swift */,
-				E9BF8E0427D5E984008CFDB9 /* Menu.swift */,
 			);
 			path = MVVMRxSwift;
 			sourceTree = "<group>";
@@ -131,8 +130,17 @@
 		E9BF8E0A27D5ED77008CFDB9 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E9BF8E0427D5E984008CFDB9 /* Menu.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		E9BF8E0B27D5EDAF008CFDB9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E9BF8DEC27D5E163008CFDB9 /* ViewController.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

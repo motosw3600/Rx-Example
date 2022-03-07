@@ -16,13 +16,12 @@ class MenuService: MenuServiceImpl {
     func fetchMenus() -> Observable<[Menu]> {
         return Observable.create { observer -> Disposable in
             
-            guard let path = Bundle.main.path(forResource: "menu", ofType: "json") else {
-                observer.onError(NSError(domain: "", code: -1, userInfo: nil))
-                return Disposables.create { }
-            }
+            guard let jsonString = LocalFileManager.readJsonFile("menu"),
+                  let data = jsonString.data(using: .utf8) else {
+                      return Disposables.create { }
+                  }
             
             do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let menus = try JSONDecoder().decode([Menu].self, from: data)
                 observer.onNext(menus)
             } catch {

@@ -18,6 +18,8 @@
 		E9BF8E0327D5E838008CFDB9 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = E9BF8E0227D5E838008CFDB9 /* menu.json */; };
 		E9BF8E0527D5E984008CFDB9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BF8E0427D5E984008CFDB9 /* Menu.swift */; };
 		E9BF8E0827D5EB88008CFDB9 /* MenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BF8E0727D5EB88008CFDB9 /* MenuService.swift */; };
+		E9BF8E0D27D5EDE5008CFDB9 /* MenuListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BF8E0C27D5EDE5008CFDB9 /* MenuListViewModel.swift */; };
+		E9BF8E0F27D5EFB8008CFDB9 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BF8E0E27D5EFB8008CFDB9 /* MenuViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		E9BF8E0227D5E838008CFDB9 /* menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		E9BF8E0427D5E984008CFDB9 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		E9BF8E0727D5EB88008CFDB9 /* MenuService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuService.swift; sourceTree = "<group>"; };
+		E9BF8E0C27D5EDE5008CFDB9 /* MenuListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewModel.swift; sourceTree = "<group>"; };
+		E9BF8E0E27D5EFB8008CFDB9 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				E9BF8DEC27D5E163008CFDB9 /* ViewController.swift */,
+				E9BF8E0C27D5EDE5008CFDB9 /* MenuListViewModel.swift */,
+				E9BF8E0E27D5EFB8008CFDB9 /* MenuViewModel.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -260,11 +266,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9BF8E0127D5E26A008CFDB9 /* AppCoordinator.swift in Sources */,
+				E9BF8E0D27D5EDE5008CFDB9 /* MenuListViewModel.swift in Sources */,
 				E9BF8DED27D5E163008CFDB9 /* ViewController.swift in Sources */,
 				E9BF8E0827D5EB88008CFDB9 /* MenuService.swift in Sources */,
 				E9BF8DE927D5E163008CFDB9 /* AppDelegate.swift in Sources */,
 				E9BF8DEB27D5E163008CFDB9 /* SceneDelegate.swift in Sources */,
 				E9BF8E0527D5E984008CFDB9 /* Menu.swift in Sources */,
+				E9BF8E0F27D5EFB8008CFDB9 /* MenuViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
